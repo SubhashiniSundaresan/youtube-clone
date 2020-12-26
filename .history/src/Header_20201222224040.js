@@ -1,0 +1,25 @@
+import React from "react";
+import MenuIcon from "@material-ui/icons/Menu";
+import SearchIcon from "@material-ui/icons/Menu";
+import { Notifications, VideoCall } from "@material-ui/icons";
+import { Avatar } from "@material-ui/core";
+
+function Header() {
+  return (
+    <div className='header'>
+      <p>I'm a Header</p>
+      <MenuIcon />
+      <img
+        className='header__logo'
+        src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Youtube.png/320px-Youtube.png'
+        alt=''></img>
+      <input type='text'></input>
+      <SearchIcon />
+      <VideoCall />
+      <Notifications />
+      <Avatar alt='subhashini' src='' />
+    </div>
+  );
+}
+
+export default Header;
